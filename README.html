@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Subtyp Storage Windows App</title>
+    <style>
+        body {
+            background-color: #222;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            background-color: #333;
+            border-radius: 8px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            animation: fadeIn 2s;
+            margin: 30px;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        h1 {
+            font-size: 24px;
+        }
+
+        p {
+            margin: 20px;
+        }
+
+        code {
+            background-color: #444;
+            color: #fff;
+            padding: 3px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>How to use Subtyp Storage Windows App</h1>
+        <p>1. Open the prerequisites folder and install winfsp (do not alter the settings for it, use all default settings).</p>
+        <p>2. Open the rclone folder.</p>
+        <p>3. Open set-password.bat, then type in your password that has been supplied to you.</p>
+        <p>4. Open rclone.conf, then type in your username into the 5th line, next to user. It should look like <code>user = USERNAME</code>.</p>
+        <p>5. After all credentials have been inputted and everything has been installed, all you have to do is double click the run.cmd. This will mount the cloud storage to X:\subtyp-storage. You can access, upload, view, and download all files from here.</p>
+    </div>
+</body>
+</html>
